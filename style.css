@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.search_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(15, 197, 210);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.search-field {
+    height: 50px;
+    width: 500px;
+    font-size: 20px;
+    color: blue;
+}
+
+.search-btn {
+    height: 55px;
+    width: 90px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.drink-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.drink-select-cotainer {
+    width: 30%;
+    box-shadow: 1px 1px 10px rgb(245, 41, 78);
+    padding: 15px;
+}
+
+
+.card {
+    width: 250px;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.detail-container {
+
+    margin-top: 150px;
+    margin-left: 200px;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-content {
+    background: white;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 150px;
+
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.slected-item {
+    text-align: center;
+}
+
+.b {
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    text-align: center;
+}
+
+.group-list {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.group-item {
+    display: flex;
+    align-items: center;
+}
+
+.mg {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+}

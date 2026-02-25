@@ -1,19 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coctail Project</title>
     <!-- css link add -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+
+    <div id="search_container" class="search_container">
+
+        <input id="search-field" class="search-field" type="text" placeholder="Search Item here">
+        <button class="search-btn" onclick="search_drink()">Search</button>
+    </div>
+
+
+    <div id="main-container" class="main-container">
+
+        <div id="drink-container" class="drink-container">
+
+        </div>
+
+        <div id="drink-select-cotainer" class="drink-select-cotainer">
+            <h3 class="slected-item">Selected Item: <span id="count">0</span> </h3>
+            <hr>
+            <div id="group-list" class="group-list"></div>
+
+        </div>
+    </div>
+
+
+    <div id="detail-container" class="detail-container">
+        <div class="details-content">
+            <div id="details-body" class="details-body"></div>
+            <span class="close" onclick="closeModal()"><button class="b">Close</button></span>
+
+        </div>
+    </div>
 
 
 
 
     <!-- script lonk add -->
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
